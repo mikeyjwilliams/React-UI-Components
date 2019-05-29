@@ -6,10 +6,10 @@ import CardContent from './CardContent';
 function CardContainer() {
     return (
         <div>
-            <span className="border">
+            <div className="border">
                 <CardBanner />
                 <CardContent />
-            </span>
+            </div>
            
         </div>
     );
