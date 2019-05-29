@@ -1,1 +1,7 @@
 /* All styles for your Card Components live here */
+.img-banner {
+    width: 95%;
+    margin-left: 8%;
+    border-top-right-radius: 0.65rem;
+    border-top-left-radius: 0.65rem;
+}
