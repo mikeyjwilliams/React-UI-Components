@@ -1,7 +1,6 @@
 /* All styles for your header Components live here */
 
-/** .header-container goes over classes to encapsulate them
-    and too arrange them in the header box. **/
+/** .header-container too arrange them in the header box. **/
 .header-container {
     display: flex;
     align-items: flex-start;
