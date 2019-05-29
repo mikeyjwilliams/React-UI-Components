@@ -1,9 +1,13 @@
 /* All styles for your header Components live here */
 
-h1, h2, p {
+.header-title h1, .header-title h2,.header-title  p {
     display: inline-flex;
 }
 
-h2, p {
-    font-size: 16px; 
+.header-title h2, .header-title p {
+    font-size: 0.75rem;
+    margin-left: 5px;
+    color: slategray;
+    font-weight: 400; 
 }
+
