@@ -1,10 +1,13 @@
 /* All styles for your Card Components live here */
+/*** CardBanner begins *********/
 .img-banner {
     width: 95%;
     margin-left: 8%;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+/**** CardBanner ends **********/
+/** CardContent begins *********/
 .banner-bottom {
     width: 89%;
     margin-left: 8%;
