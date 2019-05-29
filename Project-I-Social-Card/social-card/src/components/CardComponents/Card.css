@@ -2,16 +2,16 @@
 .img-banner {
     width: 95%;
     margin-left: 8%;
-    border-top-right-radius: 0.65rem;
-    border-top-left-radius: 0.65rem;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .banner-bottom {
     width: 89%;
     margin-left: 8%;
     padding:0 0.85rem;
     border: 1px solid gainsboro;
-    border-bottom-left-radius: 0.65rem;
-    border-bottom-right-radius: 0.65rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .banner-bottom p {
