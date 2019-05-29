@@ -1,5 +1,19 @@
 /* All styles for your header Components live here */
 
+/** .header-container goes over classes to encapsulate them
+    and too arrange them in the header box. **/
+.header-container {
+    display: flex;
+    align-items: flex-start;
+}
+.img-lambda {
+    display: inline-flex;
+    width: 8%;
+}
+.header-container h1, .header-container h2, .header-container p {
+    margin-top: 0;
+}
+/** .header-title section begins **/
 .header-title h1, .header-title h2,.header-title  p {
     display: inline-flex;
 }
@@ -13,3 +27,4 @@
     font-weight: 500; 
 }
 
+/** header-title section ends **/
