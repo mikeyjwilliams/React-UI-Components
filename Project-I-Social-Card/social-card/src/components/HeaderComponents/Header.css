@@ -1,1 +1,9 @@
 /* All styles for your header Components live here */
+
+h1, h2, p {
+    display: inline-flex;
+}
+
+h2, p {
+    font-size: 16px; 
+}
