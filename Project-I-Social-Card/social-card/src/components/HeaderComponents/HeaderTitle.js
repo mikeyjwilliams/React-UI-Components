@@ -7,7 +7,7 @@ function HeaderTitle() {
             <h1>Lambda School</h1>
             <span className="atDate">
                 <h2>@LambdaSchool</h2>
-                <p className="date">- 26 jan</p>
+                <p className="date">- 29 May</p>
             </span>
         </div>
     );
