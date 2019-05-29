@@ -3,11 +3,13 @@
 .header-title h1, .header-title h2,.header-title  p {
     display: inline-flex;
 }
-
+.header-title h1 {
+    font-size: 1rem;
+}
 .header-title h2, .header-title p {
     font-size: 0.75rem;
     margin-left: 5px;
     color: slategray;
-    font-weight: 400; 
+    font-weight: 500; 
 }
 
