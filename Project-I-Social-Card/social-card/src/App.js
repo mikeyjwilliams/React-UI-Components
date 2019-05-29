@@ -5,7 +5,7 @@ import HeaderContainer from './components/HeaderComponents/HeaderContainer';
 
 const App = () => {
   return (
-    <div>
+    <div className="container">
       <HeaderContainer />
       <h3>Welcome to React Social Card!</h3>
       <p>
