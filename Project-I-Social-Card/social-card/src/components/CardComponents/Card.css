@@ -5,3 +5,15 @@
     border-top-right-radius: 0.65rem;
     border-top-left-radius: 0.65rem;
 }
+.banner-bottom {
+    width: 89%;
+    margin-left: 8%;
+    padding:0 0.85rem;
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 0.65rem;
+    border-bottom-right-radius: 0.65rem;
+}
+
+.banner-bottom p {
+    font-size: 0.80rem;
+}
