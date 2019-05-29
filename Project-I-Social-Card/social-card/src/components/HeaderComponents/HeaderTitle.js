@@ -6,8 +6,8 @@ function HeaderTitle() {
         <div className="header-title">
             <h1>Lambda School</h1>
             <span className="atDate">
-                <h2>@LambdaSchool</h2>
-                <p className="date">- 29 May</p>
+                <h2 className="gray">@LambdaSchool</h2>
+                <p className="gray">- 29 May</p>
             </span>
         </div>
     );
