@@ -29,3 +29,6 @@
 
 /** HeaderTitle section ends **/
 /** HeaderContent section begins ***/
+.header-content {
+    font-size: .85rem;
+}
