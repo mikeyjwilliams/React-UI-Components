@@ -5,7 +5,7 @@ import HeaderTitle from './HeaderTitle';
 
 function HeaderContainer() {
     return (
-        <div>
+        <div className="header-container">
             <ImageThumbnail />
             <HeaderTitle />
         </div>
