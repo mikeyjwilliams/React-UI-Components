@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer';
+import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComment, faSync, faHeart, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
