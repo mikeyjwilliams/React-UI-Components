@@ -2,11 +2,13 @@ import React from 'react';
 import './App.css';
 
 import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+import ActionButton from './components/ButtonComponents/ActionButton';
 
 
 const App = () => {
   return (
     <div className="container">
+      <ActionButton />
       <ButtonContainer />
       <h3>Welcome to React Calculator</h3>
       <p>
