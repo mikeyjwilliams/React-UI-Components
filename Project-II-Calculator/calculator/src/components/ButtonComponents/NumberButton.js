@@ -11,7 +11,7 @@ class NumButton extends React.Component {
     }
 }
 
-class CalculatorBtns extends React.Component {
+class CalculatorNumBtns extends React.Component {
     renderButton(i) {
         return <NumButton value={i} />
     }
@@ -44,7 +44,7 @@ class CalculatorBtns extends React.Component {
 
 function NumberButton() {
     return (
-        <CalculatorBtns />
+        <CalculatorNumBtns />
     );
 }
 
