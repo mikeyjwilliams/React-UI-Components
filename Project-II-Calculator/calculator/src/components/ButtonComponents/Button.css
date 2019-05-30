@@ -5,9 +5,13 @@
     font-size: 2.75rem; /** all buttons get same font-size **/
     height: 4.85rem; /** all buttons get the same height **/
 }
-.num-button {
+.number-buttons .num-button {
     background: hsla(40, 100%, 99%, 0.9);
     color: black;
+}
+.calc-signs .num-buttons {
+    background: #A0001E;
+    color: #FFFFFF;
 }
 .one-wide .button {
     width: 25%; 
