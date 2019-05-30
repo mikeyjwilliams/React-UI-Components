@@ -7,5 +7,4 @@ function ImageThumbnail() {
         alt="Lambda Logo" />
     );
 }
-
 export default ImageThumbnail;

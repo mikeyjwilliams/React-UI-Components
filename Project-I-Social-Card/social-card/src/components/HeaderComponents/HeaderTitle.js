@@ -12,5 +12,4 @@ function HeaderTitle() {
         </div>
     );
 }
-
 export default HeaderTitle;

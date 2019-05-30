@@ -8,5 +8,4 @@ const HeaderContent = () => {
         </div>
     );
 }
-
 export default HeaderContent;
