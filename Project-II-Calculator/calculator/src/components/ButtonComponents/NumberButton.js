@@ -18,7 +18,7 @@ class CalculatorBtns extends React.Component {
     
     render() {
         return (
-            <div class="number-buttons">
+            <div className="number-buttons">
                 <div className="board-row">
                     <span className="one-wide">{this.renderButton(7)}</span>
                     <span className="one-wide">{this.renderButton(8)}</span>
