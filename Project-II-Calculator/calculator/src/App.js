@@ -1,9 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+
+
 const App = () => {
   return (
     <div>
+      <ButtonContainer />
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
