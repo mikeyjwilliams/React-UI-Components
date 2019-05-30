@@ -24,6 +24,19 @@ class CalculatorBtns extends React.Component {
                     <span className="one-wide">{this.renderButton(8)}</span>
                     <span className="one-wide">{this.renderButton(9)}</span>
                 </div>
+                <div className="board-row">
+                    <span className="one-wide">{this.renderButton(4)}</span>
+                    <span className="one-wide">{this.renderButton(5)}</span>
+                    <span className="one-wide">{this.renderButton(6)}</span>
+                </div>
+                <div className="board-row">
+                    <span className="one-wide">{this.renderButton(1)}</span>
+                    <span className="one-wide">{this.renderButton(2)}</span>
+                    <span className="one-wide">{this.renderButton(3)}</span>
+                </div>
+                <div className="board-row">
+                    <span className="three-wide">{this.renderButton(0)}</span>
+                </div>
             </div>
         );
     }
