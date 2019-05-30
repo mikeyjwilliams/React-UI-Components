@@ -1,10 +1,10 @@
 import React from 'react';
 import './Button.css';
 
-class Button extends React.Component {
+class NumButton extends React.Component {
     render() {
         return (
-            <button className="button">
+            <button className="button num-button">
                 {this.props.value}
             </button>
         );
@@ -13,7 +13,7 @@ class Button extends React.Component {
 
 class CalculatorBtns extends React.Component {
     renderButton(i) {
-        return <Button value={i} />
+        return <NumButton value={i} />
     }
     
     render() {
