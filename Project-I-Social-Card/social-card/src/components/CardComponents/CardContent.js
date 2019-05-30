@@ -9,9 +9,7 @@ function CardContent() {
             <p className="gray">
                 reactjs.org
             </p>
-        </div>
-        
+        </div>   
     );
 }
-
 export default CardContent;
