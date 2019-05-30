@@ -1,12 +1,15 @@
 /***** Footer begins ******************/
 .footer {
     margin-left: 10.5%; 
+    margin-top: 1.2rem;
 }
 
 
 /***** Footer Ends *********************/
 /***** FooterContent begins ************/
-
+.fa-position {
+    margin-right: 3rem;
+}
 
 
 
