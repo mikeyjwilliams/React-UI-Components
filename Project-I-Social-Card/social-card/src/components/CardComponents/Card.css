@@ -3,7 +3,7 @@
 .card {
     margin-left: 10.5%;
     padding-right: 2.5%;
-    font-size: 0;
+    font-size: 0; /** gets rid of gap between banner and bottom border **/
 }
 /*** CardBanner begins *********/
 .img-banner {
