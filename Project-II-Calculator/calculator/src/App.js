@@ -13,6 +13,38 @@ import './App.css';
 
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDivide, faTimes, faMinus, faPlus, faEquals } from '@fortawesome/free-solid-svg-icons'
+
+const division = <FontAwesomeIcon icon={faDivide} />
+const multiply = <FontAwesomeIcon icon={faTimes} />
+const subtract = <FontAwesomeIcon icon={faMinus} />
+const addition = <FontAwesomeIcon icon={faPlus} />
+const equals = <FontAwesomeIcon icon={faEquals} />
+
+const fontawesome = [
+    {
+        mathSymbol: 'faDivide',
+    },
+    {
+        mathSymbol: 'faTimes'
+    },
+    {
+        mathSymbol: 'faMinus'
+    },
+    {
+        mathSymbol: 'faPlus'
+    },
+    {
+        mathSymbol: 'faEquals'
+    }];
+
+    const fontawesomeArray = fontawesome.map( (symbols) => {
+        return <FontAwesomeIcon icon={symbols} />
+    })
+
+
 const Numbers = [
 {
   num: 'clear',
@@ -21,7 +53,7 @@ const Numbers = [
   class3: ''
 },
 {
-  num: '/',
+  num: <ActionButton />,
   class1: 'red-button',
   class2: 'one-wide',
   class3: 'end'
@@ -42,10 +74,10 @@ const Numbers = [
   num: 9,
   class1: 'white-button',
   class2: 'one-wide',
-  class3: ''
+  // class3: '' Third class NUMBER BUTTON OR ACTION BUTTON.
 },
 {
-  num: 'X',
+  num: <ActionButton />,
   class1: 'red-button',
   class2: 'one-wide',
   class3: 'end'
@@ -69,7 +101,7 @@ const Numbers = [
   class3: ''
 },
 {
-  num: '-',
+  num: <ActionButton />,
   class1: 'red-button',
   class2: 'one-wide',
   class3: 'end'
@@ -105,7 +137,7 @@ const Numbers = [
   class3: ''
 },
 {
-  num: '=',
+  num: <ActionButton />,
   class1: 'red-button',
   class2: 'one-wide',
   class3: 'end'
