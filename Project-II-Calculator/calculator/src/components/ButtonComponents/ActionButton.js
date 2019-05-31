@@ -4,7 +4,7 @@ import './Button.css';
 
 function ActionButton() {
     return (
-        <CalculatorButtons />
+        <button>+</button>
     );
 }
 
