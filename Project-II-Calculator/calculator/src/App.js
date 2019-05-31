@@ -12,7 +12,7 @@ import './App.css';
 
 
 import NumberButton from './components/ButtonComponents/NumberButton';
-// import ActionButton from './components/ButtonComponents/ActionButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 const Numbers = [
 {
   num: 'clear',
@@ -93,7 +93,7 @@ const Numbers = [
   class3: ''
 },
 {
-  num: '+', 
+  num: <ActionButton />, 
   class1: 'red-button',
   class2: 'one-wide',
   class3: 'end'
