@@ -11,26 +11,118 @@ import './App.css';
 // const equals = <FontAwesomeIcon icon={faEquals} />
 
 
-// import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+import NumberButton from './components/ButtonComponents/NumberButton';
 // import ActionButton from './components/ButtonComponents/ActionButton';
+const Numbers = [
+{
+  num: 'clear',
+  class1: 'white-button',
+  class2: 'three-wide',
+  class3: ''
+},
+{
+  num: '/',
+  class1: 'red-button',
+  class2: 'one-wide',
+  class3: 'end'
+},
+{
+  num: 7,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 8,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 9,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 'X',
+  class1: 'red-button',
+  class2: 'one-wide',
+  class3: 'end'
+},
+{
+  num: 4,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 5,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 6,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: '-',
+  class1: 'red-button',
+  class2: 'one-wide',
+  class3: 'end'
+},
+{
+  num: 1,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 2,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: 3,
+  class1: 'white-button',
+  class2: 'one-wide',
+  class3: ''
+},
+{
+  num: '+', 
+  class1: 'red-button',
+  class2: 'one-wide',
+  class3: 'end'
+},
+{
+  num: 0,
+  class1: 'white-button',
+  class2: 'three-wide',
+  class3: ''
+},
+{
+  num: '=',
+  class1: 'red-button',
+  class2: 'one-wide',
+  class3: 'end'
+}
+];
+
+const numberArray = Numbers.map( (nums, i) => {
+  return <NumberButton key={i} number={nums} />
+});
+
+
 
 
 const App = () => {
   return (
     <div className="container">
-      
-      <h3>Welcome to React Calculator</h3>
-      <p>
-        We have given you a starter project. You'll want to build out your
-        components in their respective files, remove this code and replace it
-        with the proper components.
-      </p>
-      <p>
-        <strong>
-          Don't forget to `default export` your components and import them here
-          inside of this file in order to make them work.
-        </strong>
-      </p>
+      {numberArray}
     </div>
   );
 };
