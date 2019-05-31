@@ -1,15 +1,17 @@
 /************** NumberButton begins *******************************/
 
-.button {
+.white-button, .red-button {
     border: 1px solid gray;
     font-size: 2.75rem; /** all buttons get same font-size **/
-    height: 25%; /** all buttons get the same height **/
+    height: 5rem; /** all buttons get the same height **/
+    padding: 0;
+    margin: 0;
 }
 
-.one-wide .button {
+.one-wide {
     width: 25%; 
 }
-.three-wide .button {
+.three-wide {
     width: 75%;
     border-bottom: 2px solid gray;
 }
