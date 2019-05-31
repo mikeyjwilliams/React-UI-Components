@@ -10,9 +10,32 @@ const subtract = <FontAwesomeIcon icon={faMinus} />
 const addition = <FontAwesomeIcon icon={faPlus} />
 const equals = <FontAwesomeIcon icon={faEquals} />
 
-function ActionButton() {
+const fontawesome = [
+    {
+        mathSymbol: 'faDivide',
+    },
+    {
+        mathSymbol: 'faTimes'
+    },
+    {
+        mathSymbol: 'faMinus'
+    },
+    {
+        mathSymbol: 'faPlus'
+    },
+    {
+        mathSymbol: 'faEquals'
+    }];
+
+    const fontawesomeArray = fontawesome.map( (symbols) => {
+        return <FontAwesomeIcon icon={symbols} />
+    })
+
+    console.log(fontawesomeArray);
+
+function ActionButton(props) {
     return (
-        
+        {props.fontawesome.fontawesomeArray}
     );
 }
 
