@@ -7,6 +7,14 @@
     padding: 0;
     margin: 0;
 }
+.white-button {
+    color: black;
+    background-color: white;
+}
+.red-button {
+    color: white;
+    background-color: #A0001E;
+}
 
 .one-wide {
     width: 25%; 
