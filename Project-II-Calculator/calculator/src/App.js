@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes, faDivide, faMinus, faPlus, faEquals } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faTimes, faDivide, faMinus, faPlus, faEquals } from '@fortawesome/free-solid-svg-icons'
 
-const multiply = <FontAwesomeIcon icon={faTimes} />
-const division = <FontAwesomeIcon icon={faDivide} />
-const subtract = <FontAwesomeIcon icon={faMinus} />
-const addition = <FontAwesomeIcon icon={faPlus} />
-const equals = <FontAwesomeIcon icon={faEquals} />
+// const multiply = <FontAwesomeIcon icon={faTimes} />
+// const division = <FontAwesomeIcon icon={faDivide} />
+// const subtract = <FontAwesomeIcon icon={faMinus} />
+// const addition = <FontAwesomeIcon icon={faPlus} />
+// const equals = <FontAwesomeIcon icon={faEquals} />
 
 
-import ButtonContainer from './components/ButtonComponents/ButtonContainer';
-import ActionButton from './components/ButtonComponents/ActionButton';
+// import ButtonContainer from './components/ButtonComponents/ButtonContainer';
+// import ActionButton from './components/ButtonComponents/ActionButton';
 
 
 const App = () => {
