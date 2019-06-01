@@ -1,5 +1,18 @@
-/************** NumberButton begins *******************************/
+/************** ButtonContainer Begins *****************************/
+.one-wide, .three-wide {
+    border-bottom: 2px solid gray;
+    display: inline-block;
+}
 
+.one-wide {
+    width: 25%;
+}
+.three-wide {
+    width: 75%;
+}
+    
+/************** ButtonContainer Ends ******************************/
+/**************** Number Action mix *******************************/
 .white-button, .red-button {
     border: 1px solid gray;
     font-size: 2.75rem; /** all buttons get same font-size **/
@@ -7,21 +20,16 @@
     padding: 0;
     margin: 0;
 }
+/************** NumberButton begins *******************************/
+
+
 .white-button {
     color: black;
     background-color: white;
 }
+/************** NumberButton Ends *********************************/
+/************** ActionButton Start ********************************/
 .red-button {
     color: white;
     background-color: #A0001E;
 }
-
-.one-wide {
-    width: 25%; 
-}
-.three-wide {
-    width: 75%;
-    border-bottom: 2px solid gray;
-}
-/************** NumberButton Ends *********************************/
-/************** ActionButton Start ********************************/
