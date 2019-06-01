@@ -3,11 +3,11 @@ import './Button.css';
 
 
 
-    console.log(fontawesomeArray);
+    // console.log(fontawesomeArray);
 
 function ActionButton(props) {
     return (
-        <button></button>
+       <button className={`actionBtn ${props.red-button}`}>{props.data}</button>
     );
 }
 
