@@ -17,7 +17,7 @@
 .white-button, .red-button {
     border: 1px solid gray;
     font-size: 2.75rem; /** all buttons get same font-size **/
-    height: 5rem; /** all buttons get the same height **/
+    height: 6rem; /** all buttons get the same height **/
     padding: 0;
     margin: 0;
     display: inline-block;
