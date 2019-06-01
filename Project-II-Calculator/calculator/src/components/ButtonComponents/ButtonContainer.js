@@ -3,7 +3,7 @@ import './Button.css';
 
 function ButtonContainer(props) {
     return (
-    <div>
+    <div className={props.btnWidth}>
         {props.children}
     </div>
     );
