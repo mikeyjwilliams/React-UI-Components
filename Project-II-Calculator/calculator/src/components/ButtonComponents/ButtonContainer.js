@@ -2,8 +2,10 @@ import React from 'react';
 import './Button.css';
 
 function ButtonContainer(props) {
-    <div className={props.buttonWidth}>
+    return (
+    <div>
         {props.children}
     </div>
+    );
 }
 export default ButtonContainer;
