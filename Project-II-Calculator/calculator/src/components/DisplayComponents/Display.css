@@ -1,0 +1,11 @@
+
+.caculator-display {
+    height: 5rem;
+    width: 100%;
+    color: black;
+}
+
+.calc-output {
+    color: white;
+    direction: rtl;
+}
