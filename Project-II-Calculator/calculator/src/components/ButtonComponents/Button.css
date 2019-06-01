@@ -1,11 +1,12 @@
 /************** ButtonContainer Begins *****************************/
-.one-wide, .three-wide {
+.one-wide , .three-wide {
     border-bottom: 2px solid gray;
     display: inline-block;
 }
 
 .one-wide {
     width: 25%;
+
 }
 .three-wide {
     width: 75%;
@@ -19,17 +20,20 @@
     height: 5rem; /** all buttons get the same height **/
     padding: 0;
     margin: 0;
+    display: inline-block;
 }
 /************** NumberButton begins *******************************/
-
-
 .white-button {
     color: black;
     background-color: white;
+    width: 100%;
 }
 /************** NumberButton Ends *********************************/
 /************** ActionButton Start ********************************/
 .red-button {
     color: white;
     background-color: #A0001E;
+    display: inline-block;
+    width: 100%;
+
 }
