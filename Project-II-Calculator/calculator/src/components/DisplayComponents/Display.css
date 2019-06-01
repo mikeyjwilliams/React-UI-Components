@@ -2,7 +2,7 @@
 .calc-output {
     height: 6rem;
     width: 100%;
-    color: black;
+    background-color: black;
     color: white;
     direction: rtl;
 }
