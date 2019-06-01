@@ -4,7 +4,7 @@ import './Button.css';
 
 function NumberButton(props) {
     return ( 
-        <button className={`numButton ${props.buttonColor}`}>{props.data}</button>  
+        <button className={`numButton ${props.btnWidth} ${props.btnColor}`}>{props.data}</button>  
     );
 };
 export default NumberButton;
