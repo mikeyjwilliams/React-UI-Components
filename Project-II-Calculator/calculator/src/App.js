@@ -10,8 +10,8 @@ import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay'
 const App = () => {
   return (
     <div className="container">
-      <CalculatorContainer calcDisplay={"calculator-display"}>
-         <CalculatorDisplay  calcOutput={"calc-output"} output={"0"} />
+      <CalculatorContainer calcDisplay={'calculator-display'}>
+         <CalculatorDisplay  calcOutput={'calc-output'} output={'0'} />
       </CalculatorContainer>
       
       <ButtonContainer btnWidth={'three-wide'} >
