@@ -7,7 +7,7 @@ import './Button.css';
 
 function ActionButton(props) {
     return (
-       <button className={`actionBtn ${props.red-button}`}>{props.data}</button>
+       <button className={`actionBtn ${props.buttonColor}`}>{props.data}</button>
     );
 }
 
