@@ -1,8 +1,14 @@
 
+.calculator-display{
+    max-width: 100%;
+}
 .calc-output {
     height: 6rem;
     width: 100%;
+    margin-right:0.5rem;
     background-color: black;
     color: white;
     direction: rtl;
+    font-size: 5rem;
+
 }
