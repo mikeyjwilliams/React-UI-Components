@@ -1,0 +1,15 @@
+/***** Footer begins ******************/
+.footer {
+    margin-left: 11%; 
+    margin-top: 1.2rem;
+}
+/***** Footer Ends *********************/
+/***** FooterContent begins ************/
+.fa-size {
+    font-size: 0.85rem;
+    color: gray;
+}
+.fa-position {
+    margin-right: 3rem;
+}
+/***** FooterContent Ends *************/

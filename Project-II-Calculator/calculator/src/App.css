@@ -1,0 +1,16 @@
+/****************** App.css ********************/
+
+.container {
+    max-width: 100%;
+    min-width: 410px;
+
+}
+
+.number-buttons .num-button {
+    background: hsla(40, 100%, 99%, 0.9);
+    color: black;
+}
+.calc-signs .num-buttons {
+    background: #A0001E;
+    color: #FFFFFF;
+}

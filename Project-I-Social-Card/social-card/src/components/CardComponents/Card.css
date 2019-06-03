@@ -1,1 +1,29 @@
 /* All styles for your Card Components live here */
+/******** cardContainer *********/
+.card {
+    margin-left: 10.5%;
+    padding-right: 2.5%;
+    font-size: 0; /** gets rid of gap between banner and bottom border **/
+}
+/*** CardBanner begins *********/
+.img-banner {
+    width: 96%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+/**** CardBanner ends **********/
+/** CardContent begins *********/
+.banner-bottom {
+    width: 89%;
+    padding:0 0.85rem;
+    border: 1px solid gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.banner-bottom p {
+    font-size: 0.80rem;
+}

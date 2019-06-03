@@ -1,1 +1,31 @@
 /* All styles for your header Components live here */
+
+/** .header-container too arrange them in the header box. ****************************/
+.header-container {
+    display: flex;
+    align-items: flex-start;
+}
+.img-lambda {
+    display: inline-flex;
+    width: 8%;
+}
+.header-container h1, .header-container h2, .header-container p {
+    margin-top: 0;
+}
+/** HeaderTitle section begins ******************************************************/
+.header-title h1, .header-title h2,.header-title  p {
+    display: inline-flex;
+}
+.header-title h1 {
+    font-size: 1rem;
+}
+.header-title h2, .header-title p {
+    font-size: 0.75rem;
+    margin-left: 5px;
+    font-weight: 500; 
+}
+/** HeaderTitle section ends ********************************************************/
+/** HeaderContent section begins ****************************************************/
+.header-content {
+    font-size: .85rem;
+}
