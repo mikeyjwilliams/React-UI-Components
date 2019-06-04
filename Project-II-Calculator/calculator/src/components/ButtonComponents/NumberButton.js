@@ -9,7 +9,7 @@ class NumberButton extends React.Component {
         }
     }
     displayNumber = (event) => {
-        this.setState({num: [this.state.num, this.props.text]})
+        this.setState({num: [...this.state.num, this.props.text]})
         console.log(this.state.num);
     }
     render() {
